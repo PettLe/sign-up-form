@@ -20,7 +20,7 @@ body {
 
 .content {
   background-color: #f9fafb;
-  max-width: 80%;
+  max-width: 70%;
   min-height: 95%;
   margin: auto;
   display: flex;
@@ -28,7 +28,7 @@ body {
 
 .side-img {
   position: relative;
-  max-width: 30%;
+  max-width: 35%;
   display: flex;
 }
 
@@ -75,19 +75,24 @@ p {
   justify-content: flex-end;
   align-items: flex-start;
   gap: 15px;
-  padding: 35px;
+  padding: 35px 70px 35px 35px;
+  margin-left: 25px;
   min-width: 100%;
   min-height: 35%;
 }
 
 .forms {
   display: flex;
-  padding: 15px;
+  flex-direction: column;
   min-width: 100%;
   min-height: 25%;
   box-shadow: 0px 6px 2px -2px rgb(194, 194, 194);
 }
 
+.forms p {
+  margin-left: 60px;
+  color: rgb(50, 55, 61);
+}
 form {
   font-weight: 600;
   font-size: small;
