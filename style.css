@@ -69,7 +69,12 @@ p {
 }
 
 .form-top {
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 15px;
+  padding: 35px;
   min-width: 100%;
   min-height: 35%;
 }
