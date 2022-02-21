@@ -18,6 +18,7 @@ body {
 }
 
 .content {
+  background-color: #f9fafb;
   max-width: 80%;
   min-height: 95%;
   margin: auto;
@@ -59,6 +60,7 @@ p {
   font-size: x-large;
 }
 .form-content {
+  background-color: white;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -76,10 +78,24 @@ p {
   padding: 15px;
   min-width: 100%;
   min-height: 25%;
-  box-shadow: 0px 2px 5px black;
+  box-shadow: 0px 6px 2px -2px rgb(194, 194, 194);
 }
 
 .form-bottom {
-  padding: 15px;
+  padding: 35px;
   min-width: 100%;
+}
+
+button {
+  background-color: #596d48;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  padding: 10px 45px 10px 45px;
+  border-radius: 10px;
+  border-style: none;
+}
+
+button:hover {
+  background-color: #6d8359;
 }
