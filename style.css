@@ -118,6 +118,13 @@ input {
   min-width: 100%;
 }
 
+.form-bottom p {
+  font-size: 1rem;
+  color: rgb(49, 49, 49);
+  font-weight: 600;
+  margin-top: 25px;
+}
+
 button {
   background-color: #596d48;
   font-size: large;
@@ -130,4 +137,10 @@ button {
 
 button:hover {
   background-color: #6d8359;
+}
+
+a {
+  color: #6d8359;
+  font-weight: 600;
+  text-decoration: none;
 }
