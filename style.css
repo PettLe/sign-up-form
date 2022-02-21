@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Norse;
+  src: url(./Norse-Bold.otf);
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -20,8 +25,28 @@ body {
 }
 
 .side-img {
+  position: relative;
   max-width: 30%;
   display: flex;
+}
+
+.logo-banner {
+  font-family: Norse;
+  font-size: xx-large;
+  color: white;
+  display: flex;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 25%;
+  max-height: 15vh;
+  min-width: 100%;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-banner img {
+  max-height: 14vh;
 }
 
 img {
@@ -29,6 +54,10 @@ img {
   object-fit: cover;
 }
 
+p {
+  font-weight: 600;
+  font-size: x-large;
+}
 .form-content {
   width: 70%;
   display: flex;
