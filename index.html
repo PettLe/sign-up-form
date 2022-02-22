@@ -63,13 +63,28 @@
               <br />
               <input type="password" name="password2" id="password2" />
             </label>
+            <br />
+            <p id="error-message-hidden">* Passwords do not match</p>
           </form>
         </div>
         <div class="form-bottom">
-          <button>Create Account</button>
+          <button onclick="validate()">Create Account</button>
           <p>Already have an account? <a href="#">Log in</a></p>
         </div>
       </div>
     </div>
+
+    <script>
+      const validate = function () {
+        let pass1 = document.getElementById("password");
+        let pass2 = document.getElementById("password2");
+        let errorMessage = document.getElementById("error-message-hidden");
+        if (pass1.value !== pass2.value) {
+          pass1.classList.add("error");
+          pass2.classList.add("error");
+          errorMessage.id = "error-message";
+        }
+      };
+    </script>
   </body>
 </html>

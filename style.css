@@ -149,3 +149,21 @@ a {
   box-shadow: 2px 2px 2px grey;
   border: 0.5px solid rgba(49, 49, 255, 0.5);
 }
+
+.error {
+  border: 1.5px solid rgb(214, 51, 51);
+}
+
+#error-message-hidden {
+  visibility: hidden;
+}
+
+#error-message {
+  font-size: small;
+  font-weight: 500;
+  color: rgb(214, 51, 51);
+  margin-top: -10px;
+  margin-bottom: 10px;
+  align-self: baseline;
+  justify-self: baseline;
+}
