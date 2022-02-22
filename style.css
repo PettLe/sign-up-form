@@ -144,3 +144,8 @@ a {
   font-weight: 600;
   text-decoration: none;
 }
+
+#lastname:focus {
+  box-shadow: 2px 2px 2px grey;
+  border: 0.5px solid rgba(49, 49, 255, 0.5);
+}
