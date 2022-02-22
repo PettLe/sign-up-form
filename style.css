@@ -167,3 +167,17 @@ a {
   align-self: baseline;
   justify-self: baseline;
 }
+
+.credits {
+  display: flex;
+  font-size: small;
+  position: absolute;
+  color: white;
+  align-self: flex-end;
+  margin-left: 25%;
+}
+
+span {
+  text-decoration: underline;
+  margin: 0px 4px 0px 4px;
+}
